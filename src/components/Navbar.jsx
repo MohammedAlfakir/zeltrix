@@ -88,7 +88,6 @@ const NavBar = () => {
               {navItems.map((item, index) => (
                 <a
                   key={index}
-                  href={`#${item.toLowerCase()}`}
                   className="nav-hover-btn"
                 >
                   {item}
